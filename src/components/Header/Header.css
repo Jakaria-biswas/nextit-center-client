@@ -1,0 +1,55 @@
+.navbar-container{
+    background-color:#F8F9FA !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #243D97;
+}
+.active{
+    color: red;
+     border-bottom: 1px solid #243D97;
+  
+    
+}
+
+
+.login-btn{
+    background-color: green;
+    padding: 2px 3px;  
+}
+.login-btn .link{
+    color: #fff !important;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .navbar-brand{
+        width:150px;
+    }
+    .navbar-nav{
+        margin-top: 15px;
+        border-top:1px solid #00A24D !important;
+    }
+
+        
+  }
+
+  
+  @media only screen and (max-width: 992px){
+    .login-btn{
+        background-color: #F8F9FA!important;
+        color: #fff;
+    }
+    .login-btn .nav-link{
+        color: green !important;
+    }
+            
+  }
+  .nav-item{
+      text-decoration: none !important;
+  }

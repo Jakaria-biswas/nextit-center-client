@@ -1,0 +1,17 @@
+.course-logo{
+    font-size: 50px;
+    color: #00A24D;
+}
+.course-title{
+    font-weight:bold;
+    color: #00A24D;
+    font-size: 15px;
+
+}
+.motivate-logo-bg{
+    height: 150px;
+    background-color: #F8F9FA;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+     padding: 5px;
+     margin: 5px;
+}

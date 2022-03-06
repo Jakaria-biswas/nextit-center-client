@@ -1,0 +1,27 @@
+.contact-header-border{
+    width: 200px;
+    height: 4px;
+    background-color: #00A24D;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    }
+    .contact{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    }
+    .contact-from {
+        border-right: 2px solid #243D97;
+    }
+    .contact-source span{
+        color: #253D97;
+        font-size: 18px;
+        font-weight: 400;
+    }
+   
+    @media only screen and (max-width: 768px) {
+        .contact-source{
+            margin-top: 15px;
+        }
+    }
