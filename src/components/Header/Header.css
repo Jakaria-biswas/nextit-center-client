@@ -42,14 +42,9 @@
   
   @media only screen and (max-width: 992px){
     .login-btn{
-        background-color: #F8F9FA!important;
-        color: #fff;
+        width: 50px;
+        display: block;
+        margin-top: 15px;
     }
-    .login-btn .nav-link{
-        color: green !important;
-    }
-            
-  }
-  .nav-item{
-      text-decoration: none !important;
+   
   }

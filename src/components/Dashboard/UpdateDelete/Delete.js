@@ -33,7 +33,7 @@ const Delete = ({courseItem}) => {
                       
                          <Link to={`/courseId/${courseItem._id}`}><button className='btn btn-outline-info btn-sm'>view course</button></Link>
                           <button className='btn btn-danger' onClick={() => handleDelete(`${courseItem._id}`)}>delete</button>
-                          <Link to={`/update/${courseItem._id}`}><button className='btn btn-info'>update</button></Link>
+                          
                     </div>
                 </div>
             </div>
