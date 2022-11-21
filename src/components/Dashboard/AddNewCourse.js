@@ -13,7 +13,8 @@ const AddNewCourse = () => {
     const handleFontImg = (event) => {
         console.log(event.target.files[0]);
         const fontImg = new FormData();
-        fontImg.set('key', '6fe26f29cfa4919a2bd6c02e3547da20')
+//         fontImg.set('key', '6fe26f29cfa4919a2bd6c02e3547da20') contact jakaria with email
+        fontImg.set('key', 'aa3d6d80d719eb49afe75ab885c9b305')
         fontImg.append('image', event.target.files[0])
         // Send a POST request
         axios.post('https://api.imgbb.com/1/upload',
@@ -31,7 +32,8 @@ const AddNewCourse = () => {
 
     const handleInsideImage = (event) => {
         const inSideImage = new FormData();
-        inSideImage.set("key", '6fe26f29cfa4919a2bd6c02e3547da20')
+//         inSideImage.set("key", '6fe26f29cfa4919a2bd6c02e3547da20')
+        fontImg.set('key', 'aa3d6d80d719eb49afe75ab885c9b305')
         inSideImage.append("image", event.target.files[0]);
 
         // Send a POST request
